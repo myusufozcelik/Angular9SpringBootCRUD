@@ -1,0 +1,12 @@
+package com.example.demo.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "student")
+public class Student {
+	private long id;
+	private String firstName;
+	private String lastName;
+}
